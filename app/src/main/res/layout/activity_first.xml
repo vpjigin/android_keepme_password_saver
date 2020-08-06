@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:gravity="center">
+
+    <TextView
+        android:gravity="center"
+        android:text="@string/firstTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"/>
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_marginTop="8dp"
+        android:hint="Choose Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_marginTop="8dp"
+        android:hint="Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btConfirm"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:text="Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Keep Safe</string>
+
+    <item name="item_click_support" type="id"></item>
+
+    <string name="firstTxt">You have to remember this password to open the application. Please select password as easy to remember and also a
+        strong where no one cannot guess</string>
+
+    <string name="aboutUs">Iam a Programmer hobissst, I create applications which help peoples across world. If you feel there
+        is any changes needed to the application, then please suggest me the changes in the suggestion window which is available
+        in the main window. Thank you guys</string>
+</resources>
